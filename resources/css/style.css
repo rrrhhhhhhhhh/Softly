@@ -1,3 +1,73 @@
-head {
-  
+/* System open to understand */
+
+body {
+  line-height: 1;
 }
+
+body,
+input {
+  font: normal 20px/23px Times New Roman,Arial,sans-serif; }
+  @media (max-width: 1024px) {
+
+body,
+input {
+  font-size: 14px;
+  line-height: 17px;
+      }
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+i,
+em {
+font-style: italic;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+position: relative;
+word-spacing: -0.1em;
+}
+
+header {
+  zoom: 1;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  min-height: 70px;
+  padding-bottom: 36px;
+  z-index: 100;
+}
+
+.header-logo {
+  font: normal 28px/28px Times New Roman,Arial,sans-serif;
+  float: left; }
+  @media (max-width: 1024px) {
+
+
+.header-logo {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.main-content {
+  font: normal 28px/28px Times New Roman,Arial,sans-serif;
+  padding-bottom: 32px; }
