@@ -1,0 +1,18 @@
+header {
+font-size: 22px,
+line-height: 22px;
+}
+
+.header-logo {
+  font: normal 28px/28px; Times New Roman, Arial, sans-serif;
+  float: left;
+}
+
+div {
+  display: block;
+}
+
+body {
+  position: relative;
+  word-spacing: -0.1em;
+}
