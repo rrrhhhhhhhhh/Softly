@@ -1,6 +1,15 @@
+html {
+  word-wrap: break-word;
+  box-sizing: border-box
+  vertical-align:baseline;
+}
+
 header {
-font-size: 22px,
-line-height: 22px;
+  font-size: 22px,
+  line-height: 22px;
+  display: inline-block;
+  line-height: normal;
+  position: relative;
 }
 
 .header-logo {
@@ -15,4 +24,27 @@ div {
 body {
   position: relative;
   word-spacing: -0.1em;
+}
+
+img {
+  display: block;
+}
+
+.block {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main {
+  text-indent: 3em;
+  font: normal 28px/28px; Times New Roman, Arial, sans-serif;
+  padding-bottom: 32px;
+}
+
+p {
+  display: block;
+  margin-before: 1em;
+  margin-after: 1em;
+  margin-start: 0px;
+  margin-end: 0px;
 }
